@@ -1,0 +1,95 @@
+/* Rectangle 9 */
+.left-rectangle {
+	position: absolute;
+	left: 0%;
+	right: 70.15%;
+	top: 0%;
+	bottom: 0%;
+	background: #F3F3F3;
+}
+.right-rectangle {
+	position: absolute;
+	left: 29.85%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+	background: #FFFFFF;
+	border: 1px solid #E8EAEF;
+}
+
+.right-rectangle-top {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    height: 2.8rem;
+    bottom: 95.03%;
+    background: #4077E4;
+}
+	
+.right-pdf-title {
+	font-size: 18px;
+	color: #FFFFFF;
+	padding: 0.7rem;
+	font-weight: bold;
+}
+.pdf-list-item {
+	border: 1px solid #E8EAEF;
+	box-sizing: border-box;
+	box-shadow: 0px 3px 6px rgba(57, 65, 102, 0.05);
+	border-radius: 2px;
+}
+.left-top {
+	height: 2.8rem;
+}
+.upload-text {
+	position: absolute;
+    top: 0.7rem;
+    left: 19rem;
+}
+.files-text {
+	position: absolute;
+    top: 0.8rem;
+    left: 1rem;
+    font-weight: bold;
+}
+
+.card-color {
+	color: #394166;
+    background-color: initial;
+    border: initial;
+}
+.card-active {
+    background-color: #fff;
+    border-left: 5px solid #4077E4;
+}
+.cursor {
+	cursor: pointer;
+}
+
+@media screen and (width: 768px)
+{
+	.upload-text {
+		left: 9rem;
+	}
+}
+
+@media screen and (width: 1024px)
+{
+	.upload-text {
+		left: 14rem;
+	}
+}
+
+@media screen and (width: 1680px)
+{
+	.upload-text {
+		left: 26rem;
+	}
+}
+
+
+
+
+
+
